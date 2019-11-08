@@ -19,11 +19,10 @@ while (i < facts.length){
 function iLoveTheBeatles(n){
   var array = [];
   let i = 0;
-  do { iLoveTheBeatles[i] = `${iLoveTheBeatles[i]} I love the Beatles!`;
+  do {array[i] = "I love the Beatles!";
   i++;
-    console.log(iLoveTheBeatles[i]);
-  } while (i < 17);
+    
+  } while (i < 15 - n);
 
-
-return iLoveTheBeatles;
+return array;
 }
