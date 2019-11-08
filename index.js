@@ -17,7 +17,8 @@ while (i < facts.length){
 }
 
 function iLoveTheBeatles(n){
-  let i = [];
+  var array = [];
+  let i = 0;
   do { iLoveTheBeatles[i] = `${iLoveTheBeatles[i]} I love the Beatles!`;
   i++;
     console.log(iLoveTheBeatles[i]);
